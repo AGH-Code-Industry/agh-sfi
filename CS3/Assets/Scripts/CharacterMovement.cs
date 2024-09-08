@@ -54,6 +54,9 @@ namespace DeadFusion.GameCore
             fovOverride = cameraFov.AddOverride(movementSettings.normalFOV, 3, "Character Movement");
             fov = movementSettings.normalFOV;
             animTimer = movementSettings.cameraBob.keys[0].time;
+
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
 
         void Update()
