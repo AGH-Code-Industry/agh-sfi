@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772029b273becce468c3bf122ae251ca, type: 3}
+  m_Name: BAR
+  m_EditorClassIdentifier: 
+  key: bar
+  name: BAR
+  description: 
+  icon: {fileID: 0}
+  slotType: 1
+  weaponConfig:
+    viewModel: {fileID: 4100144855224181505, guid: bb04fee20fe4bcb4094b1f586c093d7d,
+      type: 3}
+    adsFov: 50
+    damage: 30
+    damageFalloffStart: 25
+    damageFalloffEnd: 100
+    fireMode: 1
+    fireRate: 400
+    bulletCount: 1
+    loadMode: 0
+    magazineSize: 20
+    ammoReserveCapacity: 60
+    clipLoadAmount: 0
+    recoilSettings:
+      interpolation: 40
+      verticalRecoil: 6
+      horizontalRecoilMin: 1
+      horizontalRecoilMax: 4
+      adsMultiplier: 0.5
+    spreadSettings:
+      spreadAngle: 3
+      adsSpreadAngle: 0.5
+    pivotRotationSettings:
+      regressionSpeed: 15
+      maxDelta: 6000
+      deltaScale: 0.0053
+      adsMultiplier: 0.2
+    shootAudioAsset: {fileID: 11400000, guid: 2feff8968bb5c7d4d8277737902e61c8, type: 2}
+  defaultAmmoReserve: 60
