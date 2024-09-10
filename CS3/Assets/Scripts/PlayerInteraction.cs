@@ -6,6 +6,8 @@ namespace DeadFusion.GameCore
 {
     public class PlayerInteraction : MonoBehaviour
     {
+        public static PlayerInteraction Instance;
+
         public string Description { get; private set; }
         public bool blockInteraction;
 
@@ -21,6 +23,7 @@ namespace DeadFusion.GameCore
         private void Awake()
         {
             kb = InputSystem.GetDevice<Keyboard>();
+            Instance = this;
         }
 
         void Update()
